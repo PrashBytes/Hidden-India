@@ -83,3 +83,10 @@ jspm_packages/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Large video files (exceed GitHub's 100MB limit)
+public/videos/*.mp4
+*.mp4
+*.mov
+*.avi
+*.mkv
