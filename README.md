@@ -1,16 +1,27 @@
-# React + Vite
+# Hidden India: Sensor-Based Danger Detection Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Developed during a hackathon, Hidden India is a smart monitoring solution designed to improve safety in challenging environments. The system utilizes three key sensors—sound, vibration, and humidity—to detect potential risks and send timely alerts.
 
-Currently, two official plugins are available:
+## Key Features
+- **Sound Sensor:** Monitors for abnormal noise levels that may indicate dangerous activity.
+- **Vibration Sensor:** Detects unusual ground tremors or mechanical shocks for early warning.
+- **Humidity Sensor:** Tracks moisture changes that could signal unsafe conditions (e.g., risk of landslides, flooding, or electrical hazards).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How It Works
+- All sensor data is captured and processed in real time.
+- The platform analyzes these inputs to determine if a potential danger is present.
+- When a threat is detected, users receive instant notifications, helping them avoid harm.
 
-## React Compiler
+## Tech Stack
+- **Hardware:** Sound, vibration, and humidity sensors (Arduino/Raspberry Pi platform recommended)
+- **Software:** Real-time data ingestion and analysis (code details here)
+- **Alerts:** Custom logic for recognizing dangerous thresholds and sending notifications
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Use Cases
+- Monitoring remote or hazardous locations (construction sites, mines, flood zones)
+- Safety systems for rural or underdeveloped areas
+- Quick deployment for disaster prevention during events or emergencies
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## About
+Built by Prashanta Sarmah Bordoloi  for the Hisen hack event.  
+Focused on accessible technology that protects lives and enables responsive safety management across India.
